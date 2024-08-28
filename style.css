@@ -1,0 +1,111 @@
+*{
+    background:#c7dec7;
+    font-family: League Spartan, sans-serif;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+    
+}
+
+.logo{
+    padding-top: 5px;
+    margin-left: 5px;
+    width: 11%;
+
+}
+
+main{
+    display: flex;
+    margin-bottom: 10px;
+    margin-left: 200px;
+
+}
+
+.text-area {
+    border: none;               
+    color: #2F4F4F;
+    margin-top: 30px;
+    width: 400px; /* Ancho fijo */
+    height: 203px; /* Altura fija */
+    text-transform: lowercase;
+    resize: none;
+
+}
+
+::placeholder { color: #2F4F4F; }
+    .text-area:focus{
+        outline: none;
+    }
+
+.mensaje{
+    background:white ;
+    background-image: url("/IMAGENES/candado.gif") ;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: none;
+    border-radius: 24px;
+    color: #2F4F4F;
+    margin-left: 98px;
+    margin-top: 10px;
+    padding-left: 20px;
+    width: 400px; /* Ancho fijo */
+    height: 290px; /* Altura fija */
+    resize: none; /* Deshabilita el cambio de tamaño */
+    overflow: auto; /* Añade scroll si el contenido sobrepasa el área */ 
+    
+
+}    
+
+.mensaje:focus {
+    background: white;
+    }
+
+.botones{
+    display:flex;
+    justify-content: space-between;
+    width: 400px; /* Asegura que los botones ocupen el mismo ancho que .mensaje */
+    margin-top: 18px;
+}
+
+.botoncopiar{
+    margin-top: 18px;
+    width: 100%; /* Ocupa todo el ancho disponible */
+    text-align: center; /* Centra el botón en su contenedor */
+}
+
+.btn-encriptar{
+    background-color: #2F4F4F;
+    border: 1px solid #2F4F4F;
+    border-radius: 24px;
+    color: #c7dec7;
+    cursor: pointer;
+    height: 67px;
+    width: 328px;   
+}
+
+.btn-desencriptar{
+    background-color: #2F4F4F;
+    border: 1px solid #2F4F4F;
+    border-radius: 24px;
+    color: #c7dec7;
+    cursor: pointer;
+    height: 67px;
+    width: 328px; 
+}
+
+.btn-copiar{
+    background-color: #2F4F4F;
+    border: 1px solid #2F4F4F;
+    border-radius: 24px;
+    color: #c7dec7;
+    cursor: pointer;
+    height: 67px;
+    width: 328px; 
+
+}
+
+.informacion{
+    color: #2F4F4F;
+    font-size: 18px;
+}
+
